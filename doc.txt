@@ -1,0 +1,102 @@
+Macteca 2.0 
+We are fixing any issues with the website so that it works properly 
+
+I need to add logo to the website 
+	LOGO Fix
+Done-
+
+Split the contact us and google map into 2 rows/ I need to experiment.
+
+const Hamza = () => {
+Arrow function ^
+
+In progress----
+Fix responsive design for other devices/display
+ 
+Try and test on another device 
+Clean up text./ Profreading and font change. 
+-Align testomonies to a better position. / Find a way to port google api to replace.
+Might be better to delete because its not good to port data with added slides. 
+I want a review to show up everytime the page refrashes. 
+menu links   
+add email link to contact us. 
+
+
+See how we can make a dark mode <> black: bg-base-300
+
+ 
+ 
+Ask the questions of:
+What don't you like 
+whats do you like 
+Any other information to add 
+
+padding Y
+padding X
+
+
+After this is complete you will need to deploy onto the server, so it can be used. 
+
+Any other added plugins go here:
+
+npm install react react-dom leaflet
+npm install react-leaflet
+import { MapContainer } from 'react-leaflet/MapContainer'
+
+May need to remove these ^
+
+Card are not aligned with the rest of the page?? grid should be center
+
+Map needs improvment and i need to fix reponsive design 
+So me add grid then say how many rows or columns we want. in sm & md Change contact so it shows  1col & 1row
+
+// <img width={300} src={require("./images/fullRes_mactech.png")} alt="PC Repair" />
+
+Horizontal rule at button of navbar
+
+ADD line break for title
+
+INSALL THIS FOR FAVICON
+npm install react-favicon --save
+
+
+xm:   500px
+sm:	640px	
+md:	768px	
+lg:	1024px	
+xl:	1280px	
+2xl:	1536px
+
+justify-items-center = Sends the items to the fucking center of the page!!!
+
+
+
+Example for drop down bar
+<div className="col-span-6 sm:col-span-3">
+                  <label
+                    htmlFor="country"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    Country
+                  </label>
+                  <select
+                    id="country"
+                    name="country"
+                    autoComplete="country-name"
+                    className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  >
+                    <option>United Kingdom</option>
+                    <option>Canada</option>
+                    <option>Mexico</option>
+                  </select>
+                </div>
+
+Macteca 2.0 Design
+Add functionality and then add to server 
+
+Change Favicon 
+Delete dum files 
+Link buttons to areas of the page.
+Have a link that has preset corrodinates to google maps location data 
+Contact data to email address. 
+	
